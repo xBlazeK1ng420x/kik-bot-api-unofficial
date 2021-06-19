@@ -31,7 +31,7 @@ class KikClient:
     """
 
     def __init__(self, callback: callbacks.KikClientCallback, kik_username, kik_password,
-                 kik_node=None, device_id_override=None, android_id_override=None):
+                 kik_node=None, device_id_override=None, android_id_override=None)
         """
         Initializes a connection to Kik servers.
         If you want to automatically login too, use the username and password parameters.
